@@ -1,0 +1,629 @@
+@media screen and (max-width: 540px) {
+    .full-wrapper{
+        background: url('../Pictures/Header/header-bg.svg');
+        background-repeat: no-repeat;
+        background-size: 800px;
+    }
+    .wrapper{
+        max-width: 540px;
+        padding: 0px 24px;
+        
+    }
+    .navbar .menu{
+        display: none;
+    }
+     .navbar .button{
+        display: none;
+    }
+    .mobile-nav .nav-icon i{
+        display: block;
+        font-size: 1.6rem;
+    }
+    .mobile-nav .nav-icon{
+        border: 1px solid black;
+        width: 48px;
+        height: 48px;
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+    }
+    .middle-position {
+        top: 3.8rem;
+        left: 12rem;
+        width: 56%;
+    }
+    .left-position {
+        top: 11.1rem;
+        left: -0.9rem;
+        width: 40%;
+    }
+    .right-position {
+        top: 15.4rem;
+        right: -2rem;
+        width: 34%;
+    }
+    .header .header-title h1{
+        font-size: 2.8rem;
+        line-height: 4rem;
+        padding-top: 13rem;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+    .header .header-paragraph p{
+        padding-top: 8rem;
+    }
+    .header .header-button .button-one button{
+        padding: 1.7rem 2.4rem;
+    }
+    .header .header-button .button-two button{
+        padding: 1.7rem 2rem;
+    }
+    .brand-section{
+        padding-top: 5rem;
+    }
+    .brand-section span {
+        max-width: 323px;
+        display: inline-block;
+    }
+    .brand-section .brand-image{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3rem;
+        justify-content: center;
+    }
+    .brand-section img{
+        width: 108px;
+    }
+    .feature{
+        margin-top: 8rem;
+    }
+    .feature .feature-text h2{
+        font-size: 4rem;
+    }
+    .feature .feature-frame {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 3rem;
+    }
+    .feature .frame-text-one {
+        top: 31.5rem;
+        left: 12.6rem;
+    }
+    .feature .frame-text-two {
+        top: 63rem;
+        left: 12.6rem;
+    }
+    .feature .frame-text-three {
+        top: 95.5rem;
+        left: 12.3rem;
+    }
+    .content-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .content-section .content-left img {
+        top: -15rem;
+        left: 0rem;
+        width: 492px;
+    }
+    
+    .content-section .content-right{
+        width: 492px;
+        margin: 0 auto;
+        padding-top: 34rem;
+    }
+    .content-section .content-right h2{
+        font-size: 4rem;  
+    }
+    .wcu-section{
+        padding-top: 4.3rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .wcu-section .wcu-right img{
+        top: -10rem;
+        right: 17.7rem;
+        width: 492px;
+    }
+    .feature-blow h2{
+        padding-bottom: 1.3rem;
+        padding-top: 8rem;
+        font-size: 3rem;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .feature-blow p{
+        font-weight: 500;
+        font-size: 1.8rem;
+        padding-bottom: 4.9rem;
+        text-align: center;
+    }
+    .feature-blow .blow-shape-one {
+        bottom: -11rem;
+        left: 6.8rem;
+    }
+    .feature-blow .blow-shape-two {
+        bottom: -47rem;
+        left: 6.8rem;
+    }
+    .feature-blow .blow-shape-three {
+        bottom: -83.5rem;
+        left: 6.8rem;
+    }
+    .feature-blow .shape-text-one {
+        bottom: -2rem;
+        left: 12rem;
+        z-index: 2;
+    }
+    .feature-blow .shape-text-two{
+        bottom: -38rem;
+        left: 12rem;
+        z-index: 2;
+    }
+    .feature-blow .shape-text-three{
+        bottom: -87rem;
+        left: 12rem;
+        z-index: 2;
+    }
+    .payment-section{
+        padding-top: 60rem;
+    }
+    .payment-section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .payment-section .payment-right{
+        max-width: 492px; 
+        margin-left: 0;             
+    }
+    .payment-right .payment-right-content h2{
+        font-size: 3rem;
+        line-height: 4.6rem;
+        padding-bottom: 2.6rem;
+    }
+    .payment-right .payment-right-content p{
+        margin-bottom: 1.5rem;
+    }
+    .payment-right .payment-right-content span{    
+        font-size: 1.6rem;
+        max-width: 442;
+        display: inline-block;
+    }
+    .payment-section .payment-left img {
+        top: 125rem;
+        left: 1rem;
+        max-width: 569px;
+    }
+    .payment-right .payment-right-content button {
+        padding: 1.7rem 2rem;
+    }
+
+    .footer-form{
+        position: relative;
+        padding-top: 35.4rem;
+        padding-bottom: 3.4rem;
+        width: 540px;
+        margin: 0 auto;
+    }
+    .footer-form h2 {
+        top: 47rem;
+        left: 6.8rem;
+        font-size: 2rem;
+        line-height: 2.5rem;
+        max-width: 300px;
+    }
+    .footer-form .form {
+        position: absolute;
+        top: 36.5rem;
+        right: 8.4rem;
+    }
+    .footer-form .form form input {
+        width: 14rem;
+        height: 2.4rem;
+    }
+    .footer-form .form form label{
+        font-size: 1rem;      
+        padding: 0 0;
+    }
+    .footer-form .form form ::placeholder{
+        font-size: 1rem;
+    }
+    .footer-form .form form button {
+        padding: 0rem;
+        width: 14rem;
+        font-size: 10px;
+        border: none;
+        margin-top: 1.8rem;
+    }
+    .footer-cta{
+        width: 492px;
+        padding-bottom: 7.1rem;
+    }
+    .footer-section{
+        width: 492px;
+    }
+    .footer-section .footer-up{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 5.9rem;
+        
+    }
+    .footer-section .footer-up .financy .financy-icons{
+        position: absolute;
+        top: 12.3rem;
+        left: 0rem;
+    }
+    .footer-list{
+        display: flex;
+        column-gap: 3rem;
+        padding-top: 16rem;
+        padding-bottom: 5rem;
+    }
+    .footer-section .footer-down {
+        width: 492px;
+    }
+    .footer-section .footer-down .link a:last-child{
+        padding-right: 0px;
+    }
+    .footer-section .footer-down .right-reserve ul{
+        font-size: 1.4rem;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        padding-top: 5.5rem;
+        padding-bottom: 1rem;
+
+    }
+    .footer-section .footer-down .right-reserve ul li{
+        border-right: none;
+    }
+}   
+
+@media screen and (min-width: 541px) and (max-width: 768px) {
+    .full-wrapper{
+        background: url('../Pictures/Header/header-bg.svg');
+        background-repeat: no-repeat;
+        background-size: 1000px;
+    }
+    .wrapper{
+        max-width: 768px;
+        padding: 0 32px;
+     }
+     .navbar .logo h3{
+        width: 112px;
+        margin-left: 0px;
+    }
+    .navbar .menu{
+        width: 399px;
+    }
+    .navbar .menu ul{
+        margin-left: 9rem;
+    }
+    .navbar .menu ul a li img{
+        margin-left: 4px;
+    }
+    .navbar .menu ul a{
+        margin-right: 1.7rem;
+    }
+    .navbar .menu ul li{     
+        margin-right: 1px;
+    }
+    .navbar .button{
+        width: 208px;
+    }
+    .navbar .button .anchor-btn{
+        margin-left: 34px;
+    }
+    .navbar .button .button-btn {
+        margin-top: 33px;
+    }
+    .navbar .button .button-btn button{
+        padding: 1.4rem 1.5rem;
+    }
+    .header .header-title h1 {
+        font-size: 4.2rem;
+        line-height: 6rem;
+        padding-top: 13rem;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .middle-position {
+        top: 3.8rem;
+        left: 21rem;
+        width: 46%;
+    }
+    .left-position {
+        top: 10.1rem;
+        left: -0.9rem;
+        width: 28%;
+    }
+    .right-position {
+        top: 16.4rem;
+        right: -1rem;
+        width: 24%;
+    }
+    .header .header-paragraph p{
+        padding-top: 2rem;
+    }
+    .header .header-button .button-one button{
+        padding: 1.7rem 1.8rem;
+    }
+    .header .header-button .button-two button{
+        padding: 1.7rem 2rem;
+    }
+    .brand-section{
+        padding-top: 6rem;
+    }
+    .brand-section span {
+        max-width: 323px;
+        display: inline-block;
+    }
+    .brand-section .brand-image{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .brand-section img{
+        width: 108px;
+    }
+    .feature{
+        margin-top: 6rem;
+    }
+    .feature .feature-text h2{
+        font-size: 4rem;
+    }
+    .feature .feature-frame {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 3rem;
+        width: 590px;
+        margin: 0 auto;
+    }
+    .feature .feature-frame img{
+        width: 280px;
+    }
+    .feature .frame-text-one {
+        position: absolute;
+        top: 22.5rem;
+        left: 11.6rem;
+        width: 237px;
+    }
+    .feature .frame-text-two {
+        top: 22.5rem;
+        left: 42.6rem;
+    }
+    .feature .frame-text-three {
+        top: 47.5rem;
+        left: 27.3rem;
+    }
+    .feature .frame-text-one span {
+        font-weight: 500;
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+        letter-spacing: -0.02em;
+    }
+    .feature .frame-text-one h3{
+        font-weight: 700;
+        font-size: 1.8rem;
+        margin-bottom: 0.2rem;
+    }
+    .content-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .content-section .content-left img {
+        top: -15rem;
+        left: 4rem;
+        width: 619px;
+    }
+    .content-section .content-right{
+        width: 492px;
+        margin: 0 auto;
+        padding-top: 40rem;
+    }
+    .content-section .content-right h2{
+        font-size: 4rem;  
+    }
+    .wcu-section .wcu-left{
+       margin: 0 auto;
+       max-width: 492px;
+    }
+    .wcu-section{
+        padding-top: 4.3rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .wcu-section .wcu-right img {
+        top: 32rem;
+        right: 7.7rem;
+        width: 492px;
+    }
+    .feature-blow h2{
+        padding-bottom: 1.3rem;
+        padding-top: 47rem;
+        font-size: 3rem;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .feature-blow p{
+        font-weight: 500;
+        font-size: 1.8rem;
+        padding-bottom: 4.9rem;
+        text-align: center;
+    }
+    .feature-blow .blow-shape-one {
+        bottom: -40rem;
+        left: 39rem;
+        width: 307px;
+    }
+    .feature-blow .blow-shape-two {
+        bottom: -40rem;
+        left: 6.8rem;
+        width: 307px;
+    }
+    .feature-blow .blow-shape-three {
+        bottom: -69.5rem;
+        left: 22.8rem;
+        width: 307px;
+    }
+    .feature-blow .shape-text-one {
+        bottom: -34rem;
+        left: 11rem;
+        z-index: 2;
+        max-width: 206px;
+    }
+    .feature-blow .shape-text-two {
+        bottom: -34rem;
+        left: 43rem;
+        z-index: 2;
+    }
+    .feature-blow .shape-text-three {
+        bottom: -73rem;
+        left: 28rem;
+        z-index: 2;
+    }
+    .feature-blow .shape-text-one h3 {
+        font-size: 2rem;
+        line-height: 2rem;
+        padding-bottom: 0rem;
+    }
+    .feature-blow .shape-text-one span {
+        font-size: 1.3rem;
+        line-height: 1.9rem;
+        margin-top: 2rem;
+        display: block;
+    }
+
+
+
+
+    .payment-section{
+        padding-top: 47rem;
+        text-align: center;
+    }
+    .payment-section{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .payment-section .payment-right{
+        max-width: 492px; 
+        margin-left: 0;             
+    }
+    .payment-right .payment-right-content h2{
+        font-size: 3rem;
+        line-height: 4.6rem;
+        padding-bottom: 2.6rem;
+    }
+    .payment-right .payment-right-content p{
+        margin-bottom: 1.5rem;
+    }
+    .payment-right .payment-right-content span{    
+        font-size: 1.6rem;
+        max-width: 442;
+        display: inline-block;
+        padding-bottom: 2rem;
+    }
+    .payment-section .payment-left img {
+        top: 107rem;
+        left: 7rem;
+        max-width: 678px;
+    }
+    .payment-right .payment-right-content button {
+        padding: 1.3rem 1rem;
+        margin: 0 auto;
+    }
+    .footer-form{
+        position: relative;
+        padding-top: 43.4rem;
+        padding-bottom: 3.4rem;
+        width: 768px;
+        margin: 0 auto;
+    }
+    .footer-form h2 {
+        top: 47rem;
+        left: 6.8rem;
+        font-size: 2rem;
+        line-height: 2.5rem;
+        max-width: 300px;
+    }
+    .footer-form .form {
+        position: absolute;
+        top: 46.5rem;
+        right: 12.7rem;
+    }
+    .footer-form .form form input {
+        width: 18rem;
+        height: 3.4rem;
+    }
+    .footer-form .form form label{
+        font-size: 1rem;      
+        padding: 0 0;
+    }
+    .footer-form .form form ::placeholder{
+        font-size: 1rem;
+    }
+    .footer-form .form form button {
+        padding: 1rem;
+        width: 18rem;
+        font-size: 10px;
+        border: none;
+        margin-top: 1.8rem;
+    }
+    .footer-cta{
+        width: 532px;
+        padding-bottom: 7.1rem;
+    }
+    .footer-form h2 {
+        top: 60rem;
+        left: 7.8rem;
+        font-size: 3rem;
+        line-height: 3.5rem;
+        max-width: 300px;
+    }
+    .footer-section{
+        max-width: 704px;
+    }
+    .footer-section .footer-up{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 5.9rem;
+        
+    }
+    .footer-section .footer-up .financy .financy-icons{
+        position: absolute;
+        top: 12.3rem;
+        left: 0rem;
+    }
+    .footer-list{
+        display: flex;
+        column-gap: 5rem;
+        padding-top: 16rem;
+        padding-bottom: 5rem;
+    }
+    .footer-section .footer-down {
+        width: 492px;
+    }
+    .footer-section .footer-down .link a:last-child{
+        padding-right: 0px;
+    }
+    .footer-section .footer-down .right-reserve ul{
+        font-size: 1.4rem;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        padding-top: 5.5rem;
+        padding-bottom: 1rem;
+
+    }
+    .footer-section .footer-down .right-reserve ul li{
+        border-right: none;
+    }
+
+
+}
