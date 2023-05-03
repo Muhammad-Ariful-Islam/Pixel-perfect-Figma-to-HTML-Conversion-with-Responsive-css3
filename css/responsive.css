@@ -284,7 +284,7 @@
 
 @media screen and (min-width: 541px) and (max-width: 768px) {
     .full-wrapper{
-        background: url('../Pictures/Header/header-bg.svg');
+        background: url('../pictures/header/header-bg.svg');
         background-repeat: no-repeat;
         background-size: 1000px;
     }
