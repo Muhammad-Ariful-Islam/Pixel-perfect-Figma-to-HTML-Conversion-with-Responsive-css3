@@ -17,7 +17,7 @@ html{
 }
 .full-wrapper{
     width: 100%;
-    background: url('../Pictures/Header/header-bg.svg');
+    background: url('../pictures/header/header-bg.svg');
     background-repeat: no-repeat;
 }
 .wrapper{
