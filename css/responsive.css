@@ -1,6 +1,6 @@
 @media screen and (max-width: 540px) {
     .full-wrapper{
-        background: url('../Pictures/Header/header-bg.svg');
+        background: url('../pictures/header/header-bg.svg');
         background-repeat: no-repeat;
         background-size: 800px;
     }
